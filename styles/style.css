@@ -13,6 +13,7 @@ img {
 
 p {
   font-size: 14px;
+  /*max-width: 90px;*/
 }
 
 .thumb {
@@ -27,7 +28,7 @@ p {
 }
 
 #container {
-  width: 50%;
+  width: 85%;
   margin: 125px auto;
 }
 
@@ -44,6 +45,7 @@ p {
 
 #topStory {
   position: relative;
+  width: 85%;
 }
 
 #topStory p {
@@ -84,3 +86,16 @@ p {
     width: 90%;
   }
 }
+
+@media (max-width: 600px) {
+  #container{
+    margin-top: 50px;
+  }
+  .thumb {
+    display: block;
+    width: 100%;
+
+  }
+
+}
+
